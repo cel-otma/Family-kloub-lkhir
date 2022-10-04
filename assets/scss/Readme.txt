@@ -1,0 +1,1 @@
+The .scss (Sass) files are only avilable in the pro version. You can buy it from: https://Chahid EL OTMANY.com/impact-bootstrap-business-website-template/
