@@ -21,6 +21,7 @@
   --color-default: #222222;
   --color-primary: hsl(6deg 59% 41% / 92%);
   --color-secondary: #f85a40;
+  --color-white: #ffff;
 }
 
 /* Smooth scroll behavior */
@@ -42,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #c6c6c6;
   text-decoration: none;
 }
 
@@ -1027,7 +1028,12 @@ section {
 .services .service-item .readmore {
   margin-top: 15px;
   display: inline-block;
-  color: var(--color-primary);
+  color: var(--color-white);
+  border: 1px solid #ad473c;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    background: #ad473c;
 }
 
 .services .service-item:hover .icon:before {
